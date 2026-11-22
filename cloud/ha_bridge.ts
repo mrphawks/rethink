@@ -143,6 +143,7 @@ const t2deviceTypes: Record<string, T2Factory> = {
     RC90V9_AUS: RC90U2_WW, // LG DVH9-09B heat pump dryer (AU), same records, checked against bridged LG cloud state
     RH90V9_WW, // LG RC10V9AV2W heat pump dryer, RC90U2_WW's records with two more courses
     '2RES1VE61NFWA': Dev_2RES1VE600FWC,
+    TLTU7CBP: T1789EFH_F, // LG WT7400CW washer, modelJson lists modelName as T1789EFH_F
 }
 
 class Bridge {
